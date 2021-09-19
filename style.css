@@ -19,14 +19,6 @@ h1{
   font-size:18px;
   text-align:center;
 }
-#change{
-  height:30px;
-  text-align:center;
-  border-radius:10px;
-  background-color:lightgreen;
-  color:red;
-  font-weight:bold;
-}
 .menu{
     list-style: none;
     font-family: cursive;
@@ -35,5 +27,17 @@ h1{
     right:30px;
     cursor:pointer;
     color:black;
-    z-index:10;
+}
+.link{
+    float:left;
+    color:red;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-family:fantasy;
+    font-size:20px;
+}
+.link:hover{
+    background-color:yellow;
 }
