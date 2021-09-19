@@ -11,7 +11,8 @@ body{
 h1{
   text-shadow: 2px 2px;
   color:indigo;
-  font-size:30px; 
+  font-size:30px;
+  font-family: 'Comic Neue', cursive;
 }
 #bio{
   padding:20px;
@@ -34,4 +35,5 @@ h1{
     right:30px;
     cursor:pointer;
     color:black;
+    z-index:10;
 }
